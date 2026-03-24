@@ -1,1 +1,125 @@
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитка</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Твое имя</h1>
+    <p>Короткое описание (например: предприниматель / дизайнер / разработчик)</p>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#services">Услуги</a>
+    <a href="#contacts">Контакты</a>
+</nav>
+
+<div class="container">
+
+    <div class="section" id="about">
+        <h2>Обо мне</h2>
+        <p>
+            Напиши здесь краткую информацию о себе. Кто ты, чем занимаешься,
+            какой у тебя опыт и чем можешь быть полезен.
+        </p>
+    </div>
+
+    <div class="section" id="services">
+        <h2>Услуги</h2>
+        <ul>
+            <li>Услуга 1</li>
+            <li>Услуга 2</li>
+            <li>Услуга 3</li>
+        </ul>
+    </div>
+
+    <div class="section" id="contacts">
+        <h2>Контакты</h2>
+        <p>Телефон: +996 XXX XXX XXX</p>
+        <p>Email: example@mail.com</p>
+        <a class="btn" href="https://wa.me/996XXXXXXXXX">Написать в WhatsApp</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Твое имя</p>
+</footer>
+
+</body>
+</html>
